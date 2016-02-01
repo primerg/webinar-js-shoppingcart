@@ -1,0 +1,28 @@
+@import url("mobile.css");
+@import url("desktop.css");
+
+.simpleCart_items {
+	
+}
+
+.headerRow {
+	background: #eee;
+	overflow: hidden;
+}
+
+.headerRow > div {
+	font-weight: bold;
+	text-align: center;
+}
+
+.item-name, .item-price, .item-decrement, .item-quantity, .item-increment, .item-total, .item-remove {
+	width: 100px; float: left;
+}
+
+.item-price, .item-quantity, .item-total {
+	text-align: right;
+}
+
+.itemRow {
+	overflow: hidden;
+}
